@@ -1,0 +1,35 @@
+                                          GIT COMMANDS
+
+ls -- Shows files inside Folder
+
+ls .git -- shows all hidden folder
+
+git status -- tracks changes in projects
+
+git add . or git add filenameor foldername -- adds the file or folder into staging areagit
+
+git commit -- commits the staged content
+
+vi file.extension -- allows to insert values inside file
+
+cat files.txt -- shows contents of files
+
+to quit or exit from vi--press esc couple of times and press :x
+
+git restore --staged file.txt or foldername --Removes from staging area
+
+git log -- shows the entire history of commits
+
+rm -rf files.txt -- deletes file from project
+
+git reset commit-id --removes all the commit from the present id 
+
+example let us say if git reset 3 the commit after 3 will all be removed
+all the previous commits are in staged area
+
+
+git stash -- helps to save the files without commiting (project is exactly like before it was commited)
+
+git stash pop -- brings back all the files into staging area
+
+
